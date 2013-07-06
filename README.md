@@ -1,4 +1,3 @@
-<<<<<<< HEAD
   V A R I A
   Usefull files :)
 =======================
