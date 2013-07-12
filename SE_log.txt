@@ -1,0 +1,440 @@
+Gravatar i WordPress
+marek007@gmail.com
+username: marek560614
+pass: marek992013
+
+twitter: marek560614
+pass: marek99
+mail: @gmail
+
+twitter: marek007
+pass:marek99
+mail:siras@
+
+heroku.com:shrouded-forest-6839.github
+
+Logging in
+
+You will be asked to enter your Heroku credentials the first time you run a command; after the first time, your email address and an API token 
+will be saved to ~/.netrc for future use. For more information, see Heroku CLI Authentication
+
+root@(none):~/myapp# heroku login
+Enter your Heroku credentials.
+Email: marek007@gmail.com
+Password (typing will be hidden): es..9
+Authentication successful.
+
+=============
+machine api.heroku.com
+  login marek007@gmail.com
+  password 314ee98f-7c98-427b-89fa-425e80e0e766
+machine code.heroku.com
+  login marek007@gmail.com
+  password 314ee98f-7c98-427b-89fa-425e80e0e766
+  ============
+
+https://github.com/marek007
+pass:espe...9
+
+https://aws.amazon.com/
+login: marek007@gmail.com
+pass:esp...9
+AWS Account ID:	3715-9625-8968
+Your Access Keys Created	Access Key ID		Secret Access Key	
+July 2, 2013			AKIAJNQ2CXLFLSYJCKGQ	d+6LK2yWNy3bjbwM+KLGwCiaSJPa9f9HuwjHZmjb
+
+Store your secret access key in a secure location. You will not be able to get your secret access key after this page is removed. After that, you will need to create new access keys if you forget or lose your secret access key.
+
+
+----- instalacja wg https://toolbelt.heroku.com/debian
+echo "This script requires superuser access to install apt packages."
+echo "You will be prompted for your password by sudo."
+
+# clear any previous sudo permission
+sudo -k
+
+# run inside sudo
+sudo sh <<SCRIPT
+
+  # add heroku repository to apt
+  echo "deb http://toolbelt.heroku.com/ubuntu ./" > /etc/apt/sources.list.d/heroku.list
+
+  # install heroku's release key for package verification
+  wget -O- https://toolbelt.heroku.com/apt/release.key | apt-key add -
+
+  # update your sources
+  apt-get update
+
+  # install the toolbelt
+  apt-get install -y heroku-toolbelt
+
+SCRIPT
+
+-----
+root@(none):~# heroku login
+Enter your Heroku credentials.
+Email: marek007@gmail.com
+Password (typing will be hidden): 
+Found existing public key: /root/.ssh/id_rsa.pub
+Uploading SSH public key /root/.ssh/id_rsa.pub... done
+Authentication successful.
+id_rsa
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: AES-128-CBC,212B6FAF9F53852FCE09132B0CAF967B
+
+gF32HOGm0uDygVunkronB2QJ7BfQzUqtmoxUKV5B8cVol0s6ma0m6Q02S8c2eCLU
+ShRJ6ESZp/w1I1BN/fEDqAwudIsf/RDJjJ5hxMkPb77DgjsQO7rMbol63VFNptEJ
+A5u3erZT8EpV0mz852QOI+zh1sM9Mx6UrQ17WbnKgXuHmcIzgUycWMcLnntb7LL2
+lWvJsfDebRx9gPw9XxyhUuD2gBxzLuU4YVFB2R9bKhaasyhGH5r2NCtGalHBDH7a
+w4XEwjT7Rq300+pcB9aPJhxC5Jty4GE4IrFhGqnkSgqouf1MT5/yJES/AIToRqtV
+lPA1P0VLS6MzI36sYnevhs7jdw8YcThfjzoDNB5kirqtUeLf3UJw4k6dNzP6l+61
+vXWLN8QtENWcvYSoBhsWMGEupz5qc363N+ZiqiB90OJGSQk4UY24q7OEjl2HqeHz
+7wPFQjEwddn9FzKoyR/3+KgFj2Ig3wJmv9+Y4Iisy9dLGRJ5Hp+F/YQ0D41UFT+h
+ECF4BHOqrtovcFS7wrmce7Z/dikziVdbhVOzmT0Uw/A3CtYyoes+x0JMNTP3MkCC
+H426NssjZ5P5apFyYuZh/1jngeS9/qBxGEs/R+9ucJKrGlr+KsB7e8090qD5GHb9
+m7a+qSyec/zME9FFNf6RnV/HieULoNRu24iKgaMkxiBxrDIG8oTUrcMiyySJhBSY
+VzZRNyzYIle46BSAd1AjxlPJFCJz/YXfyJmcQ1uizuYEies1XBrXns68M8LzeHRd
+kXBEGPncI2xuCaC0G0I5k2jRYqWkXpjMLcVbvvgtGqO7TwspYdw1Flu2/KmJSY9c
+RN6cY9j7mGlpfDtMKUEMSj4jkDgYvNu4XOcYBRh3i4HFdM1bzkm3/jzTqiZnx2sC
+M659Dll7Y+gtP+BR4Osk/UXG8M2cpYm4hINX841ZxssJxcev4kQKXwdJXGhpLMaA
+um8h7guBKaYwgB8iHRYEnVuLu2Arn3pEGCHGblbXX0rWW/vxHmbtKpdvY0ba3Nub
+a5qPmcH2E0Ve3tRN04WDuf6XPAWI08v/KXbGQVIFol/hzdiSaB7TTqVWhSHYUU1S
+3KUHef/j2WHcojFl8reMOSrvsfkY/2zl1vfKFScJcuOVgbbCwRHQti5EGQyZqtaS
+DGvKO64Mi3CJorbBn9bu1CLB3CYYql3Z8FC40OrJg64Ao8xNMOMCGur20aQwRhrw
+fBWk5mxGxBn1EXBb5jrRDp1LOOX3IyfUc+oE1BjW7ABGoMbbPzPrOYQTNpSZqJTh
+BJbFRrCZtz2clDoW+LVL6R4pnxAME8yOF0auyk7vNQ7vAi4LfKIWHYNYDc9zCfGO
+A4ZfLWcgW7m7SmMwbMGmjXmv4ccHauui5rzsZw6fJ1v1Q9YUlzkD4VqRNlm2yueR
+o5sN8A/bFFi2QMJLkGX5GeDnzEv+YLlPP4ZRVGRpadOJMVadwq/YvYTenwq/cLO8
+llUOogXszynpWf9gaYyQwug4imHuqcOwLGSBZC1fRkGA6iUHLYlh76B/vZhEsUdu
+fGwoLQYroh6fU/Dtxyj2PiPyT4kI4UiZXW84CyNaM1KI6tn4nTRcdrIyQUnp5F2D
+-----END RSA PRIVATE KEY-----
+
+id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDXeT4jG2BlibnLGUIG9wlYeV1FZ0+J1AH1Rpy2gyKxcxQqTKI+BbCZazHhf/NZQmL63naPCkmfJKVMgZvBgKobKUelxxgLBeDelUEn1iX9Ik/fsjeIJ0KlI1GW5Si9/I9USOzJae2VKwLV8iYPuNIr/4AnHJinFVV2S8cC4kL/EM+zCOfKx4oxvuf/HdcKAQD5Ab9owt2+hdpEZHZiUmIbGl1wvEDahXi56PaYs4eVSqVRVzSzdc2fAUo9suTMMRqMF+dgc5TIdmI6tnvSGRk40BVHBLN2geI+rb3dqwwDVURVLG0EWHqQNt7x6TxUrjpphUzW2bQmqVLmJps1PJnR root@meson
+
+SSH Keys
+marek007 (0e:f3:9f:81:f1:1f:a4:60:61:92:d4:15:ac:05:10:fd)
+
+root@(none):~/myapp# ssh-keygen -t rsa -C marek007@gmail.com
+Generating public/private rsa key pair.
+Enter file in which to save the key (/root/.ssh/id_rsa): marek007
+marek007 already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase): es..9
+Enter same passphrase again: 
+Your identification has been saved in marek007.
+Your public key has been saved in marek007.pub.
+The key fingerprint is:
+2e:fb:b9:55:a0:fe:9c:61:4a:6d:75:18:25:25:ee:9a marek007@gmail.com
+The key's randomart image is:
++--[ RSA 2048]----+
+|            o.o  |
+|           . +   |
+|          . o    |
+|         . o o   |
+|        S   = .  |
+|       o . = .   |
+|      . + E      |
+|       + O o     |
+|      ..=.+      |
++-----------------+
+root@(none):~/myapp# 
+
+------------------------------ te zbiory leÅ¼Ä w /root/.ssh
+root@(none):/usr/local/src/node-v0.10.12# cd ~/myapp
+root@(none):~/myapp# heroku create
+Creating shrouded-forest-6839... done, region is us
+http://shrouded-forest-6839.herokuapp.com/ | git@heroku.com:shrouded-forest-6839.git
+root@(none):~/myapp# path
+bash: path: nie znaleziono polecenia
+root@(none):~/myapp# PATH
+bash: PATH: nie znaleziono polecenia
+root@(none):~/myapp# echo PATH
+PATH
+root@(none):~/myapp# echo @PATH
+@PATH
+root@(none):~/myapp# echo $PATH
+/usr/local/heroku/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/sdk/android/android-sdk-linux_86/tools:/opt/sdk/android/android-sdk-linux_86/tools
+root@(none):~/myapp# 
+========================
+root@(none):~# heroku login
+Enter your Heroku credentials.
+Email: marek007@gmail.com
+Password (typing will be hidden): 
+Found existing public key: /root/.ssh/id_rsa.pub
+Uploading SSH public key /root/.ssh/id_rsa.pub... done
+Authentication successful.
+root@(none):~# cd /usr/local/src/node-v0.10.12
+root@(none):/usr/local/src/node-v0.10.12# node ./test/example.js
+Server running at http://127.0.0.1:1337/
+==============
+What is it?
+
+    Heroku client - CLI tool for creating and managing Heroku apps
+    Foreman - an easy option for running your apps locally
+    Git - revision control and pushing to Heroku
+
+Getting started
+
+Once installed, you'll have access to the heroku command from your command shell. Log in using the email address and password you used when creating your Heroku account:
+
+$ heroku login
+Enter your Heroku credentials.
+Email: adam@example.com
+Password:
+Could not find an existing public key.
+Would you like to generate one? [Yn]
+Generating new SSH public key.
+Uploading ssh public key /Users/adam/.ssh/id_rsa.pub
+
+You're now ready to create your first Heroku app:
+
+$ cd ~/myapp
+$ heroku create
+Creating stark-fog-398... done, stack is cedar
+http://shrouded-forest-6839.herokuapp.com/ | git@shrouded-forest-6839.git
+Git remote heroku added
+
+Technical details
+
+The install script will add our repository and key to your apt sources and then have apt install the heroku and foreman packages from it. 
+The heroku command line client will be installed into 
+/usr/local/heroku and /usr/local/heroku/bin will be added to your PATH.
+=============
+ec2-54-218-122-163.us-west-2.compute.amazonaws.com
+	
+NameF
+	
+Instance
+	
+AMI ID
+	
+Root Device
+	
+Type
+	
+State
+	
+Status Checks
+	
+Alarm Status
+	
+Monitoring
+	
+Security Groups
+	
+Key Pair Name
+	
+Virtualization
+	
+Placement Group
+	Name	Instance	AMI ID	Platform	EBS Optimized	Root Device	Root Device Name	Zone	Type	State	Status Checks	Alarm Status	Monitoring	Lifecycle	Public DNS	Private DNS	Reservation	Product Codes	RAM Disk ID	State Transition Reason	Security Groups	Security Group IDs	Key Pair Name	Kernel ID	AMI Launch Index	Launch Time	Elastic IP	Virtualization	Placement Group	Private IPs	Secondary Private IPs	VPC ID	Subnet ID	Block Devices	Source Dest. Check	Tenancy	IAM Role
+	
+Web Server
+	
+i-0c465339
+	
+ami-70f96e40
+	
+ebs
+	
+t1.micro
+	
+running iconrunning
+	
+2/2 checks passed
+	
+none
+	
+basic
+	
+quicklaunch-1
+	
+marek007
+	
+paravirtual
+	
+================
+
+root@(none):~/myapp# heroku create --region eu
+Creating rocky-caverns-7223... done, region is eu
+http://rocky-caverns-7223.herokuapp.com/ | git@heroku.com:rocky-caverns-7223.git
+Git remote heroku added
+
+our instance is now launching.
+Instance: i-2cd8cd19 
+
+	
+NameF
+	
+Instance
+	
+AMI ID
+	
+Root Device
+	
+Type
+	
+State
+	
+Status Checks
+	
+Alarm Status
+	
+Monitoring
+	
+Security Groups
+	
+Key Pair Name
+	
+Virtualization
+	
+Placement Group
+	Name	Instance	AMI ID	Platform	EBS Optimized	Root Device	Root Device Name	Zone	Type	State	Status Checks	Alarm Status	Monitoring	Lifecycle	Public DNS	Private DNS	Reservation	Product Codes	RAM Disk ID	State Transition Reason	Security Groups	Security Group IDs	Key Pair Name	Kernel ID	AMI Launch Index	Launch Time	Elastic IP	Virtualization	Placement Group	Private IPs	Secondary Private IPs	VPC ID	Subnet ID	Block Devices	Source Dest. Check	Tenancy	IAM Role
+	
+marek007
+	
+i-2cd8cd19
+	
+ami-70f96e40
+	
+ebs
+	
+t1.micro
+	
+running iconrunning
+	
+2/2 checks passed
+	
+none
+	
+basic
+	
+quicklaunch-1
+	
+marek007
+	
+paravirtual
+	
+-----------------
+#!/usr/bin/env node
+var fs = require('fs');
+var outfile = "hello.txt";
+var out = "A startup is a business built to grow rapidly.\n";
+fs.writeFileSync(outfile, out);  
+console.log("Script: " + __filename + "\nWrote: " + out + "To: " + outfile);
+
+===================
+root@(none):~/myapp# ssh-keygen -t rsa -C marek007@gmail.com
+Generating public/private rsa key pair.
+Enter file in which to save the key (/root/.ssh/id_rsa): marek007
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in marek007.
+Your public key has been saved in marek007.pub.
+The key fingerprint is:
+dc:2d:91:87:e9:0f:67:69:82:c0:7a:d1:d4:11:95:b2 marek007@gmail.com
+The key's randomart image is:
++--[ RSA 2048]----+
+|        ..o+..   |
+|     . o  o+.    |
+|      + . =o.    |
+|     . + +E+ .   |
+|    . . S * *    |
+|     .     O     |
+|            .    |
+|                 |
+|                 |
++-----------------+
+============================
+2013.07.05 18:38:00
+Wczytano z pliku marek007.pub klucz na stronie
+https://console.aws.amazon.com/ec2/home?region=us-west-2#s=KeyPairs	
+e0:23:9c:a6:0f:f6:aa:90:0c:48:24:fc:97:42:6f:ff
+
+https://dashboard.heroku.com/account
+
+login:m..@
+pass:e...9
+ssh key:
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+AUGNAUsUNsyUIQI3XoVyiCHD3oIcDsT/oFGBo3l3Hs7QLEkJ4sVGjVkmWx7jsUKB9FvYod68PsfWYgllKULP15OpKe3PJamazTUSp9SAV+3990ClraTpSE1WBAgdYliwR2qPiPv6XWEHLYHZeC8pEKefwpEdQLYdFFxKPJgkcfpWVxIpIsAUJ8DD2MDQAbdsqNZsc4rwMGxzvUIJmUj+wy570y40EfMNd1pFyIKak1JD/sqCWs9X94ZjyktxGZYxc5LWHLCZ+JsEck8pCdO9BDdwWzDRs2ABRcgNCu4hJmawX99p8Cd07IghpPfOm12kQ7qHYhoXmPdt/+6/qZXT marek007@gmail.com
+API Key:
+915f8517-f6fd-4322-b350-5a42f261e849
+
+================ z wykÅadu w pdf-ie str 18
+Over the course of this class, you will use Github to store code, Gravatar to identify
+yourself in public git commits and pull requests, AWS as a development environment for
+writing code, and Heroku for deploying your code on the web.
+================ 
+w nowy katalogu robimy repozytorium git
+tworzymy nowe heroku po poprawnym zalogowaniu
+----------------:
+root@(none):~/Project/StartupEngineering/js# git add .
+fatal: Not a git repository (or any of the parent directories): .git
+root@(none):~/Project/StartupEngineering/js# git init
+Initialized empty Git repository in /root/Project/StartupEngineering/js/.git/
+root@(none):~/Project/StartupEngineering/js# git add .
+root@(none):~/Project/StartupEngineering/js# git commit -m "my first commit"
+[master (root-commit) 0aa6bd8] my first commit
+ 6 files changed, 181 insertions(+)
+ create mode 100644 fnum.js
+ create mode 100644 hello.js
+ create mode 100644 node.js
+ create mode 100644 numbers.js
+ create mode 100644 numbers_functions.js
+ create mode 100644 primes.js
+root@(none):~/Project/StartupEngineering/js# git remote -v
+root@(none):~/Project/StartupEngineering/js# heroku create
+Authentication failure
+Enter your Heroku credentials.
+Email: marek007@gmail.com
+Password (typing will be hidden): 
+Authentication successful.
+Creating evening-island-9723... done, region is us
+http://evening-island-9723.herokuapp.com/ | git@heroku.com:evening-island-9723.git
+Git remote heroku added
+root@(none):~/Project/StartupEngineering/js# 
+============================================
+ssh -i marek007.pem ubuntu@54.213.0.253
+OK
+======
+2013.07.10
+------
+
+================
+js
+czyli java script
+----------------
+czytanie z pliku:
+----------------
+var StringDecoder = require('string_decoder').StringDecoder;
+var decoder = new StringDecoder('ascii');
+var str="./t.xtx"
+console.log(decoder.write(fs.readFileSync(str)));
+---
+tworzenie sh1
+---
+var crypto = require('crypto')
+var str="./t.xtx"
+crypto.createHash('sha1').update(fs.readFileSync(str), 'ascii').digest('hex')
+---
+szyfrowanie i deszyfrowanie
+---
+var str = './t.xtx'
+var cipher = crypto.createCipher('aes-256-cbc','InmbuvP6Z8')
+var crypted = cipher.update(str,'utf8','hex')
+crypted
+''
+crypted += cipher.final('hex')
+'86f96fb91d8bb3ab3fcbf9a7c6127330'
+var decipher = crypto.createDecipher('aes-256-cbc','InmbuvP6Z8')
+var dec = decipher.update(crypted,'hex','utf8')
+dec += decipher.final('utf8')
+'./t.xtx'
+--- czyli dostaliśmy to samo
+
+
+
+
+
